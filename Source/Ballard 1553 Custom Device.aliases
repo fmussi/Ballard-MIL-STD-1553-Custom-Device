@@ -1,6 +1,9 @@
-[My Computer]
-My Computer = "130.164.35.89"
+[LinuxRt_x64]
+LinuxRt_x64 = "0.0.0.0"
 
-[RT PXI Target]
-RT PXI Target = "10.1.128.37"
+[My Computer]
+My Computer = "192.168.0.13"
+
+[Pharlap]
+Pharlap = "10.1.128.37"
 
