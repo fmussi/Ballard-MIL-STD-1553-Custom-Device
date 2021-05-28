@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\GIT\Ballard-MIL-STD-1553-Custom-Device\Source\Assemblies\HW XML Files\1.2\bin\Debug\BTIXML_SerDes.dll
+C:\Users\Administrator\Desktop\GIT\Ballard-MIL-STD-1553-Custom-Device\Source\Assemblies\HW XML Files\1.2\bin\Debug\BTIXML_SerDes.pdb
+C:\Users\Administrator\Desktop\GIT\Ballard-MIL-STD-1553-Custom-Device\Source\Assemblies\HW XML Files\1.2\obj\Debug\BTIXML_SerDes.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\GIT\Ballard-MIL-STD-1553-Custom-Device\Source\Assemblies\HW XML Files\1.2\obj\Debug\BTIXML_SerDes.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\GIT\Ballard-MIL-STD-1553-Custom-Device\Source\Assemblies\HW XML Files\1.2\obj\Debug\BTIXML_SerDes.dll
+C:\Users\Administrator\Desktop\GIT\Ballard-MIL-STD-1553-Custom-Device\Source\Assemblies\HW XML Files\1.2\obj\Debug\BTIXML_SerDes.pdb
