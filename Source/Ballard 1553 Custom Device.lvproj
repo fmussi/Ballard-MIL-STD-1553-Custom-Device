@@ -40,7 +40,6 @@
 		</Item>
 		<Item Name="Ballard 1553 Shared.lvlib" Type="Library" URL="../Shared/Ballard 1553 Shared.lvlib"/>
 		<Item Name="Ballard 1553 System Explorer.lvlib" Type="Library" URL="../System Explorer/Ballard 1553 System Explorer.lvlib"/>
-		<Item Name="Ballard Field Breakdown.vi" Type="VI" URL="../../../../Ballard Field Breakdown.vi"/>
 		<Item Name="Custom Device Ballard - 1553.xml" Type="Document" URL="../Custom Device Ballard - 1553.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -148,7 +147,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E0FFDDA0-4AC9-4103-A74E-E84070D84016}</Property>
-				<Property Name="Bld_version.build" Type="Int">126</Property>
+				<Property Name="Bld_version.build" Type="Int">127</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Ballard - 1553</Property>
@@ -158,7 +157,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Ballard - 1553/Ballard - 1553 Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5160272F-4DE1-4CFA-83CE-6EAC0B65F339}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5F17377D-DE49-439F-92E0-98E698F3FDE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Ballard - 1553.xml</Property>
