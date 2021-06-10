@@ -1413,9 +1413,10 @@ public partial class Message429Type {
 [System.ComponentModel.DesignerCategoryAttribute("code")]
 [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.ballardtech.com/DatabusSchemas/")]
 public partial class MessageBuffer429Type {
-    
-    private byte[][] rawDataField;
-    
+
+    //FM_tag: replace private byte[][] with private string[]rawDataField;
+    private string[] rawDataField;
+
     private int idField;
     
     private string nameField;
@@ -1432,18 +1433,41 @@ public partial class MessageBuffer429Type {
         this.bufferTypeField = MessageBuffer429TypeBufferType.FIFO;
         this.eventLogOnEmptyField = false;
     }
-    
+
+    //FM_tag:  using  DataType= "string" and removed typeof(byte[]), DataType="hexBinary"
     /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute("rawData", DataType="hexBinary")]
-    public byte[][] rawData {
-        get {
+    [System.Xml.Serialization.XmlElementAttribute("rawData", DataType ="string")]
+    //[System.Xml.Serialization.XmlArrayItemAttribute("rawData", DataType = "string", IsNullable = false)]
+
+    //remove public byte[][] and use string[] rawData {
+    public string[] rawData
+    {
+        get
+        {
             return this.rawDataField;
         }
-        set {
+        set
+        {
             this.rawDataField = value;
         }
     }
-    
+    //public uint[] rawData
+    //{
+    //    get
+    //    {
+    //        uint[] rawDataInt = new uint[this.rawDataField.GetLength(0)];
+    //        foreach (int i in rawDataInt)
+    //        {
+    //            rawDataInt[i] = BitConverter.ToUInt32(rawDataField[i],0);
+    //        }
+    //        return rawDataInt;
+    //    }
+    //    set
+    //    {
+    //        this.rawDataField = value;
+    //    }
+    //}
+
     /// <remarks/>
     [System.Xml.Serialization.XmlAttributeAttribute()]
     public int ID {
@@ -4297,7 +4321,7 @@ public enum Message1553TypeBus {
 public partial class MessageBuffer1553Type {
     
     private string[] messageDataField;
-	//declaration causing error -> private byte[][][] messageDataField;
+	//FM_tag: declaration causing error -> private byte[][][] messageDataField;
     
     private int idField;
     
@@ -4318,12 +4342,12 @@ public partial class MessageBuffer1553Type {
         this.eventLogOnEmptyOrFullField = false;
         this.eventLogOnHalfField = false;
     }
-    
+
     /// <remarks/>
-	//using  DataType= "string" and removed typeof(byte[]), DataType="hexBinary"
+    //FM_tag:  using  DataType= "string" and removed typeof(byte[]), DataType="hexBinary"
     [System.Xml.Serialization.XmlArrayItemAttribute("messageDataWord", DataType="string", IsNullable=false)]
-    //type causing error -> private byte[][][] messageDataField; trying string instead
-	public string[] messageData {
+    //FM_tag:  type causing error -> private byte[][][] messageDataField; trying string instead
+    public string[] messageData {
         get {
             return this.messageDataField;
         }

@@ -49,4 +49,14 @@ public partial class CoreType
             throw new ApplicationException("\n\nError: 5001, Message: Ballard Arinc-429 Custom-Device, XML Deserialization: " + ex.Message);
         }
     }
+    public void SerializeXML(string XMLFilepath)
+    {
+        XmlSerializer serializer = new XmlSerializer(typeof(CoreType));
+        Stream writer = new FileStream(XMLFilepath, FileMode.Create);
+        serializer.Serialize(writer,this);
+        writer.Close();
+
+    }
+
+
 }
