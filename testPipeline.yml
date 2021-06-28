@@ -3,18 +3,21 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+variables:
+  lv_version: 2020
+  port: 3363
+ # Build Number Variables
+  cdversion: 0.0.18
+  btbuild: $[counter(variables['btversion'],0)] 
+
 trigger:
 - dev_*
 
-pool:
-  #vmImage: ubuntu-latest
-  name: EMEA-AE-Milan
+stages:
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- stage: Build
+  dependsOn: []
+  jobs:
+  - template: templates\buildCD.yml
+    parameters:
+      pool: EMEA-AE-Milan
