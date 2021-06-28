@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- LinuxRT*
+- LinuxRTsupport
 
 pool:
   #vmImage: ubuntu-latest
