@@ -17,6 +17,7 @@ NOTES:
 - For Acyclic frame(s), emission (one at a time) is triggered when a "1" value is written on associated Trigger NI-VeriStand Channel.
 - If accepted by user during HardWare XML Load, there are TimeStamp Channels whenever it's available. This directly comes from the read Record (the 1553 frame) returned by the driver. It's the board time. So, for one 1553 frame, same TimeStamp information can be written to several NI-VeriStand TimeStamp channels (TimeStamp Channel from BC, TimeSTamp Channel from RT(s)).
 - To support broadcast frames, user needs to define a Remote Terminal at TA Address = 31. There is an XML attribute "broadcast", at Channel level, which defines whether TA address is used for RT at address 31 or as the broadcast RT. Refer to Ballard documentation (Cf. XML Schema) for more information.
+- version 0.0.18 supports XML schema 1.2
 
 
 ### LabVIEW Version ###
