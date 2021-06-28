@@ -21,7 +21,7 @@ NOTES:
 
 ### LabVIEW Version ###
 
-LabVIEW 2019
+LabVIEW 2020
 
 ### Built Availability ###
 
