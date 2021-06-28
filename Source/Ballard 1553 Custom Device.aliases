@@ -1,8 +1,8 @@
 [LinuxRt_x64]
-LinuxRt_x64 = "0.0.0.0"
+LinuxRt_x64 = "10.96.1.24"
 
 [My Computer]
-My Computer = "172.18.76.89"
+My Computer = "172.18.76.92"
 
 [Pharlap]
 Pharlap = "10.1.128.37"

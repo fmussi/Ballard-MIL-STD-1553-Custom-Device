@@ -147,7 +147,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E0FFDDA0-4AC9-4103-A74E-E84070D84016}</Property>
-				<Property Name="Bld_version.build" Type="Int">127</Property>
+				<Property Name="Bld_version.build" Type="Int">129</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Ballard - 1553</Property>
@@ -478,7 +478,7 @@ AddOutputFilter chunkFilter
 	</Item>
 	<Item Name="LinuxRt_x64" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">LinuxRt_x64</Property>
-		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
+		<Property Name="alias.value" Type="Str">10.96.1.24</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;Debug,False;Run_Async_VI,True;Enable_Ballard_Calls,True;Ballard_Simulate_Inline,False;TARGET_TYPE,RT;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -515,6 +515,34 @@ AddOutputFilter chunkFilter
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
@@ -525,6 +553,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="_tests" Type="Folder">
+			<Item Name="test_LoadHwXML.vi" Type="VI" URL="../../_Tests/test_LoadHwXML.vi"/>
+		</Item>
 		<Item Name="deps" Type="Folder">
 			<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
 		</Item>
