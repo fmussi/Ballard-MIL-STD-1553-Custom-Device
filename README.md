@@ -17,11 +17,12 @@ NOTES:
 - For Acyclic frame(s), emission (one at a time) is triggered when a "1" value is written on associated Trigger NI-VeriStand Channel.
 - If accepted by user during HardWare XML Load, there are TimeStamp Channels whenever it's available. This directly comes from the read Record (the 1553 frame) returned by the driver. It's the board time. So, for one 1553 frame, same TimeStamp information can be written to several NI-VeriStand TimeStamp channels (TimeStamp Channel from BC, TimeSTamp Channel from RT(s)).
 - To support broadcast frames, user needs to define a Remote Terminal at TA Address = 31. There is an XML attribute "broadcast", at Channel level, which defines whether TA address is used for RT at address 31 or as the broadcast RT. Refer to Ballard documentation (Cf. XML Schema) for more information.
+- version 0.0.18 supports XML schema 1.2
 
 
 ### LabVIEW Version ###
 
-LabVIEW 2017
+LabVIEW 2020
 
 ### Built Availability ###
 
@@ -56,11 +57,11 @@ With example file "1553_HW_Reference_007_BC Ch0_RTs Ch1.xml" running under NI-Ve
 
 ### Built Dependencies ###
 
-[Astronics Ballard LabVIEW Driver 1.2.0.2 or Higher] http://www.ni.com/download/ballard-pxie-omnibus-ii-1.2.0/8336/en/
+[Astronics Ballard LabVIEW Driver 1.3.0.4 or Higher] https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#343843
 
 ### Source Dependencies ###
 
-[Astronics Ballard LabVIEW Driver 1.2.0.2 or Higher] http://www.ni.com/download/ballard-pxie-omnibus-ii-1.2.0/8336/en/
+[Astronics Ballard LabVIEW Driver 1.3.0.4 or Higher] https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#343843
 
 [OpenG Array Library 4.1.1.14 or Higher] vipm://oglib_array?repo_url=http://www.jkisoft.com/packages
 
@@ -70,7 +71,7 @@ With example file "1553_HW_Reference_007_BC Ch0_RTs Ch1.xml" running under NI-Ve
 
 Code uses one .NET Assembly compiled into a DLL to import Hardware XML File. The source code is available here: https://github.com/NIVeriStandAdd-Ons/Ballard-MIL-STD-1553-Custom-Device/tree/master/Source/Assemblies/HW%20XML%20Files
 
-VIs must be renamed in BTI1553LV.lvlib to prevent naming collision during compilation see User Readme.rtf
+(optional) VIs must be renamed in BTI1553LV.lvlib to prevent naming collision during compilation see User Readme.rtf
 
 ### License ###
 
