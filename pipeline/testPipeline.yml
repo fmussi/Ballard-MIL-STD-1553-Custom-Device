@@ -3,20 +3,9 @@ resources:
   - repository: ni-cicd-tools
     type: git
     name: emea-ni-cicd-tools
-    
-variables:
-  lv_version: 2020
-  port: 3363
- # Build Number Variables
-  cdversion: 0.0.18
-  btbuild: $[counter(variables['btversion'],0)] 
 
 trigger:
 - dev_*
 
-stages:
-
-- stage: Build
-  dependsOn: []
-  jobs:
-  - template: pipleine\src\azure-pipelines.yml@ni-cicd-tools
+extends:
+  template: pipeline\src\azure-pipelines.yml@ni-cicd-tools
