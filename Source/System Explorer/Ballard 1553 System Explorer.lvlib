@@ -128,4 +128,5 @@
 			<Item Name="Update HW Configuration File Dependency.vi" Type="VI" URL="../SubVIs/Update HW Configuration File Dependency.vi"/>
 		</Item>
 	</Item>
+	<Item Name="Read Parameter FIle.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Read Parameter FIle.vi"/>
 </Library>
