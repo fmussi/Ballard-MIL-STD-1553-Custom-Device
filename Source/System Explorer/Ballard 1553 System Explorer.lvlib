@@ -56,6 +56,7 @@
 			</Item>
 			<Item Name="Ballard - 1553 - Clear Database.vi" Type="VI" URL="../Dynamically Called/Ballard - 1553 - Clear Database.vi"/>
 			<Item Name="Ballard - 1553 - Load Database.vi" Type="VI" URL="../Dynamically Called/Ballard - 1553 - Load Database.vi"/>
+			<Item Name="Ballard - 1553 - Load Parameters File.vi" Type="VI" URL="../Dynamically Called/Ballard - 1553 - Load Parameters File.vi"/>
 			<Item Name="Ballard - 1553 - Main Page.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Main Page.vi"/>
 			<Item Name="Ballard 1553 - Initialization VI.vi" Type="VI" URL="../Dynamically Called/Ballard 1553 - Initialization VI.vi"/>
 			<Item Name="Main On Compile Action VI.vi" Type="VI" URL="../Dynamically Called/Main On Compile Action VI.vi"/>
@@ -65,6 +66,7 @@
 			<Item Name="Parse Parameters File" Type="Folder">
 				<Item Name="Convert HW file path to paramID path.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Convert HW file path to paramID path.vi"/>
 				<Item Name="Load Param ID Map.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param ID Map.vi"/>
+				<Item Name="Parameters Import Action - Create Chans.v.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Parameters Import Action - Create Chans.v.vi"/>
 			</Item>
 			<Item Name="Parse XML Ballard" Type="Folder">
 				<Item Name="1.2" Type="Folder">

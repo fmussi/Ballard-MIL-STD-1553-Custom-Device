@@ -70,8 +70,8 @@
 						<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Ballard - 1553 - Load Database.vi</Path>
 					</Item2Launch>
 				</MenuItem>
-<!--				<MenuItem>
-					<GUID>24f09b42-caa8-4aeb-84ec-4032bae92de1</GUID>
+				<MenuItem>
+					<GUID>80c66a3f-dbb8-4fd7-bd25-acc5cdb5dbb5</GUID>
 					<Type>Action</Type>
 					<Name>
 						<eng>Load Parameters Configuration</eng>
@@ -81,7 +81,7 @@
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Ballard - 1553 - Load Parameters File.vi</Path>
 					</Item2Launch>
-				</MenuItem>-->
+				</MenuItem>
 				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
@@ -133,7 +133,7 @@
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
-					<ID>NIVS_AIM429_LoadDB</ID>
+					<ID>NIVS_1553_LoadDB</ID>
 					<Glyph>
 						<Type>To Application Data Dir</Type>
 						<Path>System Explorer\Glyphs\add database.png</Path>
@@ -157,14 +157,14 @@
 						<loc />
 					</Documentation>
 				</Button>
-<!--				<Button>
-					<ID>NIVS_429_LoadParameters</ID>
+				<Button>
+					<ID>NIVS_1553_LoadParameters</ID>
 					<Glyph>
 						<Type>To Application Data Dir</Type>
 						<Path>System Explorer\Glyphs\add database.png</Path>
 					</Glyph>
 					<Type>Action</Type>
-					<ReferencedGUID>24f09b42-caa8-4aeb-84ec-4032bae92de1</ReferencedGUID>
+					<ReferencedGUID>80c66a3f-dbb8-4fd7-bd25-acc5cdb5dbb5</ReferencedGUID>
 					<ButtonText>
 						<eng>Load Parameters Configuration</eng>
 						<loc>Load Parameters Configuration</loc>
@@ -181,7 +181,7 @@
 						<eng />
 						<loc />
 					</Documentation>
-				</Button>-->
+				</Button>
 				<Button>
 					<ID>NIVS_429_Separator1</ID>
 					<Glyph>
@@ -268,8 +268,8 @@
 						<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Ballard - 1553 - Load Database.vi</Path>
 					</Item2Launch>
 				</MenuItem>
-<!--				<MenuItem>
-					<GUID>24f09b42-caa8-4aeb-84ec-4032bae92de1</GUID>
+				<MenuItem>
+					<GUID>80c66a3f-dbb8-4fd7-bd25-acc5cdb5dbb5</GUID>
 					<Type>Action</Type>
 					<Name>
 						<eng>Load Parameters Configuration</eng>
@@ -279,7 +279,7 @@
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Ballard - 1553 - Load Parameters File.vi</Path>
 					</Item2Launch>
-				</MenuItem>-->
+				</MenuItem>
 				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
