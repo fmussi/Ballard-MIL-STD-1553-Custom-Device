@@ -45,6 +45,7 @@
 				<Item Name="Ballard - 1553 - Label TimeStamp Page.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Label TimeStamp Page.vi"/>
 				<Item Name="Ballard - 1553 - Message.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Message.vi"/>
 				<Item Name="Ballard - 1553 - Raw Data Word Channel.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Raw Data Word Channel.vi"/>
+				<Item Name="Ballard - 1553 - Raw Data Word Section.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Raw Data Word Section.vi"/>
 				<Item Name="Ballard - 1553 - Raw Data Words Section.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Raw Data Words Section.vi"/>
 				<Item Name="Ballard - 1553 - Remote Terminal Mode Code Section Page.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Remote Terminal Mode Code Section Page.vi"/>
 				<Item Name="Ballard - 1553 - Remote Terminal Sub Address.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Remote Terminal Sub Address.vi"/>
@@ -61,7 +62,10 @@
 			<Item Name="Main On Save Action VI.vi" Type="VI" URL="../Dynamically Called/Main On Save Action VI.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Parse Parameters File" Type="Folder"/>
+			<Item Name="Parse Parameters File" Type="Folder">
+				<Item Name="Convert HW file path to paramID path.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Convert HW file path to paramID path.vi"/>
+				<Item Name="Load Param ID Map.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param ID Map.vi"/>
+			</Item>
 			<Item Name="Parse XML Ballard" Type="Folder">
 				<Item Name="1.2" Type="Folder">
 					<Item Name="BTI.xsd" Type="Document" URL="../SubVIs/Parse XML Ballard/1.2/BTI.xsd"/>

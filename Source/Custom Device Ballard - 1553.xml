@@ -496,7 +496,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Ballard - 1553 - Raw Data Word Channel.vi</Path>
+		<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Ballard - 1553 - Raw Data Word Section.vi</Path>
       </Item2Launch>
     </Page>
 	

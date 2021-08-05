@@ -19,4 +19,4 @@ stages:
 - stage: Build
   dependsOn: []
   jobs:
-  - template: pipleine\src\azure-pipelines.yml@ni-cicd-tools
+  - template: pipeline\src\azure-pipelines.yml@ni-cicd-tools
