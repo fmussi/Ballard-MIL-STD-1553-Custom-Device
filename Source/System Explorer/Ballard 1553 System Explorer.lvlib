@@ -65,7 +65,9 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Parse Parameters File" Type="Folder">
 				<Item Name="Convert HW file path to paramID path.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Convert HW file path to paramID path.vi"/>
+				<Item Name="Create Channels for Data Words.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels for Data Words.vi"/>
 				<Item Name="Create Channels from Parameter List (BC).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels from Parameter List (BC).vi"/>
+				<Item Name="Create Channels from Parameter List (mode type).vit" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels from Parameter List (mode type).vit"/>
 				<Item Name="Load Param ID Map.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param ID Map.vi"/>
 				<Item Name="Parameters Import Action - Create Chans.v.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Parameters Import Action - Create Chans.v.vi"/>
 				<Item Name="Read Parameter FIle.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Read Parameter FIle.vi"/>
