@@ -65,8 +65,10 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Parse Parameters File" Type="Folder">
 				<Item Name="Convert HW file path to paramID path.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Convert HW file path to paramID path.vi"/>
+				<Item Name="Create Channels from Parameter List (BC).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels from Parameter List (BC).vi"/>
 				<Item Name="Load Param ID Map.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param ID Map.vi"/>
 				<Item Name="Parameters Import Action - Create Chans.v.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Parameters Import Action - Create Chans.v.vi"/>
+				<Item Name="Read Parameter FIle.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Read Parameter FIle.vi"/>
 			</Item>
 			<Item Name="Parse XML Ballard" Type="Folder">
 				<Item Name="1.2" Type="Folder">
@@ -128,5 +130,4 @@
 			<Item Name="Update HW Configuration File Dependency.vi" Type="VI" URL="../SubVIs/Update HW Configuration File Dependency.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Read Parameter FIle.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Read Parameter FIle.vi"/>
 </Library>
