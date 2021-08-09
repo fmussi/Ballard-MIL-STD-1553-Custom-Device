@@ -229,6 +229,10 @@
 					</Documentation>
 				</Button>
 			</ButtonList>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Main On Load Action VI.vi</Path>
+			</ActionVIOnLoad>
 			<ActionVIOnSave>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Main On Save Action VI.vi</Path>

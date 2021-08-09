@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="CCSymbols" Type="Str">DestkopDebug,True;</Property>
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -20,6 +21,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="_test" Type="Folder">
+			<Item Name="testDummy.vi" Type="VI" URL="../../_Tests/testDummy.vi"/>
+		</Item>
 		<Item Name="Glyphs" Type="Folder">
 			<Item Name="Action.png" Type="Document" URL="../System Explorer/Glyphs/Action.png"/>
 			<Item Name="BC.png" Type="Document" URL="../System Explorer/Glyphs/BC.png"/>
@@ -34,6 +38,17 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+		</Item>
+		<Item Name="Shared" Type="Folder">
+			<Item Name="EncodeDecode" Type="Folder">
+				<Item Name="_typedefs" Type="Folder">
+					<Item Name="parameter_config_encoding_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_encoding_type.ctl"/>
+					<Item Name="parameter_config_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type.ctl"/>
+					<Item Name="parameter_config_type_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type_type.ctl"/>
+				</Item>
+				<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
+				<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
@@ -132,7 +147,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="BTIXML_SerDes.dll" Type="Document" URL="../Assemblies/HW XML Files/1.2/bin/Debug/BTIXML_SerDes.dll"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -145,6 +159,76 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Configuration Debug" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{91DB8599-44F9-4F8F-9A0B-8B0049674D97}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Configuration Debug</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard - 1553</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{449C4614-C43F-4556-AC53-CBD80C4F098A}</Property>
+				<Property Name="Bld_version.build" Type="Int">140</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Ballard - 1553</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Ballard - 1553/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">Ballard - Arinc-429 Custom Device Configuration LLB</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Ballard - 1553/Ballard - 1553 Configuration.llb</Property>
+				<Property Name="Destination[2].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1380D577-17C6-4605-BE56-09CB0F37D13B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Ballard - 1553.xml</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Glyphs/Action.png</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Glyphs/RT subAddress.png</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Glyphs/RT MC.png</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Ballard 1553 System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">4</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Glyphs</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Glyphs/BC.png</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Glyphs/RT.png</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Glyphs/Data_Word.png</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Glyphs/Data_Words.png</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Glyphs/Status Folder.png</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Glyphs/Timestamp.png</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
+			</Item>
 			<Item Name="Configuration Release" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{490CB0C3-6293-4822-B77D-FD8ED3DCC92A}</Property>
@@ -156,7 +240,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E0FFDDA0-4AC9-4103-A74E-E84070D84016}</Property>
-				<Property Name="Bld_version.build" Type="Int">134</Property>
+				<Property Name="Bld_version.build" Type="Int">138</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Ballard - 1553</Property>
@@ -166,7 +250,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Ballard - 1553/Ballard - 1553 Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F17377D-DE49-439F-92E0-98E698F3FDE6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{84F84C9A-29DE-4B63-B920-FF9342610667}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Ballard - 1553.xml</Property>
@@ -216,6 +300,48 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Glyphs/Timestamp.png</Property>
 				<Property Name="SourceCount" Type="Int">13</Property>
+			</Item>
+			<Item Name="My Application" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{EE9F6920-49C5-41AF-A781-F0A1D06C02A9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0E35441B-C469-4442-9254-27C13C6E904E}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4ACC4458-2740-4D42-8405-C9F879D248F8}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{08B61CA4-2E6C-45E5-AF6F-BE3A0304E7DD}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1380D577-17C6-4605-BE56-09CB0F37D13B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_test/testDummy.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F3975C39-FC67-4C4C-938C-0FFA3C826541}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -378,10 +504,15 @@ AddOutputFilter chunkFilter
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
+			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="parameter_config_encoding_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_encoding_type.ctl"/>
+			<Item Name="parameter_config_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type.ctl"/>
+			<Item Name="parameter_config_type_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type_type.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -645,10 +776,15 @@ AddOutputFilter chunkFilter
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
+			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="parameter_config_encoding_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_encoding_type.ctl"/>
+			<Item Name="parameter_config_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type.ctl"/>
+			<Item Name="parameter_config_type_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type_type.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
