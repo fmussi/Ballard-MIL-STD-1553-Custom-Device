@@ -33,9 +33,6 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Debug" Type="Folder">
-		<Item Name="LogToSyslog.vi" Type="VI" URL="../Debug/LogToSyslog.vi"/>
-	</Item>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Global.vi" Type="VI" URL="../Controls and Global/Global.vi"/>

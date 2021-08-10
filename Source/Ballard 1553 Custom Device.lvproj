@@ -40,6 +40,9 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
+			<Item Name="Debug" Type="Folder">
+				<Item Name="LogToSyslog.vi" Type="VI" URL="../Shared/Debug/LogToSyslog.vi"/>
+			</Item>
 			<Item Name="EncodeDecode" Type="Folder">
 				<Item Name="_typedefs" Type="Folder">
 					<Item Name="parameter_config_encoding_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_encoding_type.ctl"/>
@@ -240,7 +243,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E0FFDDA0-4AC9-4103-A74E-E84070D84016}</Property>
-				<Property Name="Bld_version.build" Type="Int">138</Property>
+				<Property Name="Bld_version.build" Type="Int">142</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Ballard - 1553</Property>
@@ -506,6 +509,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
 			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
+			<Item Name="LogToSyslog.vi" Type="VI" URL="../Shared/Debug/LogToSyslog.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -778,6 +782,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
 			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
+			<Item Name="LogToSyslog.vi" Type="VI" URL="../Shared/Debug/LogToSyslog.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

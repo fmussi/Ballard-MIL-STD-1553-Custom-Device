@@ -67,14 +67,16 @@
 			<Item Name="Parse Parameters File" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Convert HW file path to paramID path.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Convert HW file path to paramID path.vi"/>
-				<Item Name="Create Channels for Data Words.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels for Data Words.vi"/>
+				<Item Name="Create Message Channels.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Message Channels.vi"/>
 				<Item Name="Create Channels from Parameter List (BC).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels from Parameter List (BC).vi"/>
+				<Item Name="Create Channels from Parameter List (RT).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels from Parameter List (RT).vi"/>
 				<Item Name="Create Channels from Parameter List (mode type).vit" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels from Parameter List (mode type).vit"/>
 				<Item Name="Get VS item parameter map.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Get VS item parameter map.vi"/>
 				<Item Name="Set VS item parameter map.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Set VS item parameter map.vi"/>
 				<Item Name="Load Param ID Map.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param ID Map.vi"/>
 				<Item Name="Parameters Import Action - Create Chans.v.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Parameters Import Action - Create Chans.v.vi"/>
 				<Item Name="Read Parameter FIle.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Read Parameter FIle.vi"/>
+				<Item Name="Find Param Id match.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Find Param Id match.vi"/>
 			</Item>
 			<Item Name="Parse XML Ballard" Type="Folder">
 				<Item Name="1.2" Type="Folder">
