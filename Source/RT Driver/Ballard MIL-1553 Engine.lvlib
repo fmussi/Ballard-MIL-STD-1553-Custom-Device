@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="RT Driver" Type="Folder">
 		<Item Name="RT Controls" Type="Folder">
+			<Item Name="Asynchronous - Parameter map_type.ctl" Type="VI" URL="../RT Driver/Controls/Asynchronous - Parameter map_type.ctl"/>
 			<Item Name="Asynchronous - Update BC to RT Data - Map.ctl" Type="VI" URL="../RT Driver/Controls/Asynchronous - Update BC to RT Data - Map.ctl"/>
 			<Item Name="Asynchronous - Update RT to BC Data - Map.ctl" Type="VI" URL="../RT Driver/Controls/Asynchronous - Update RT to BC Data - Map.ctl"/>
 			<Item Name="Card Parameters.ctl" Type="VI" URL="../RT Driver/Controls/Card Parameters.ctl"/>

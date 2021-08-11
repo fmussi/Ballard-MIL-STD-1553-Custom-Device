@@ -1,5 +1,5 @@
 [LinuxRt_x64]
-LinuxRt_x64 = "10.96.1.24"
+LinuxRt_x64 = "192.168.0.18"
 
 [My Computer]
 My Computer = "192.168.0.12"
