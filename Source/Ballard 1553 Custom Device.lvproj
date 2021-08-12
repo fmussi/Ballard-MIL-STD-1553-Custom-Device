@@ -261,7 +261,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E0FFDDA0-4AC9-4103-A74E-E84070D84016}</Property>
-				<Property Name="Bld_version.build" Type="Int">155</Property>
+				<Property Name="Bld_version.build" Type="Int">156</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Ballard - 1553</Property>
@@ -845,7 +845,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D650FCA-E102-45E1-9A17-04AAA4E3C3B9}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Ballard - 1553 Engine.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Ballard - 1553 Engine.llb</Property>
