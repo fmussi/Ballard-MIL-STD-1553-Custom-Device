@@ -655,7 +655,7 @@ AddOutputFilter chunkFilter
 	<Item Name="LinuxRt_x64" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">LinuxRt_x64</Property>
 		<Property Name="alias.value" Type="Str">192.168.0.18</Property>
-		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;Debug,False;Run_Async_VI,True;Enable_Ballard_Calls,True;Ballard_Simulate_Inline,False;RtDebug,True;RtDriverMockupMode,True;TARGET_TYPE,RT;</Property>
+		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;Debug,False;Run_Async_VI,True;Enable_Ballard_Calls,True;Ballard_Simulate_Inline,False;RtDebug,True;RtDriverMockupMode,False;TARGET_TYPE,RT;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -730,9 +730,13 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="_tests" Type="Folder">
+			<Item Name="support" Type="Folder">
+				<Item Name="rtdm_reference_types.ctl" Type="VI" URL="../../_Tests/_typedefs/rtdm_reference_types.ctl"/>
+				<Item Name="rtdm_states_type.ctl" Type="VI" URL="../../_Tests/_typedefs/rtdm_states_type.ctl"/>
+			</Item>
 			<Item Name="rt_cdmockup_StateMachine.vi" Type="VI" URL="../../_Tests/rt_cdmockup_StateMachine.vi"/>
-			<Item Name="test_CD mockup (inline).vi" Type="VI" URL="../../_Tests/test_CD mockup (inline).vi"/>
 			<Item Name="test_LoadHwXML.vi" Type="VI" URL="../../_Tests/test_LoadHwXML.vi"/>
+			<Item Name="test_RT driver Mockup.vi" Type="VI" URL="../../_Tests/test_RT driver Mockup.vi"/>
 		</Item>
 		<Item Name="deps" Type="Folder">
 			<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
@@ -817,12 +821,15 @@ AddOutputFilter chunkFilter
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
 			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
 			<Item Name="Encode (Multi-Message).vi" Type="VI" URL="../Shared/EncodeDecode/Encode (Multi-Message).vi"/>
@@ -839,6 +846,7 @@ AddOutputFilter chunkFilter
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Relelase" Type="Source Distribution">
