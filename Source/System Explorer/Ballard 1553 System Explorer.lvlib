@@ -55,6 +55,7 @@
 				<Item Name="Ballard - 1553 - Status Section Page.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Status Section Page.vi"/>
 			</Item>
 			<Item Name="Ballard - 1553 - Clear Database.vi" Type="VI" URL="../Dynamically Called/Ballard - 1553 - Clear Database.vi"/>
+			<Item Name="Ballard - 1553 - Generate Configuration Files.vi" Type="VI" URL="../Dynamically Called/Ballard - 1553 - Generate Configuration Files.vi"/>
 			<Item Name="Ballard - 1553 - Load Database.vi" Type="VI" URL="../Dynamically Called/Ballard - 1553 - Load Database.vi"/>
 			<Item Name="Ballard - 1553 - Load Parameters File.vi" Type="VI" URL="../Dynamically Called/Ballard - 1553 - Load Parameters File.vi"/>
 			<Item Name="Ballard - 1553 - Main Page.vi" Type="VI" URL="../Dynamically Called/Pages/Ballard - 1553 - Main Page.vi"/>
@@ -138,4 +139,6 @@
 			<Item Name="Update HW Configuration File Dependency.vi" Type="VI" URL="../SubVIs/Update HW Configuration File Dependency.vi"/>
 		</Item>
 	</Item>
+	<Item Name="Load HW Database (Core).vi" Type="VI" URL="../SubVIs/Parse XML Ballard/Load HW Database (Core).vi"/>
+	<Item Name="Load Param Database (Core).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param Database (Core).vi"/>
 </Library>

@@ -59,6 +59,18 @@
       </Item2Launch>
 	  <RunTimeMenu>
 				<MenuItem>
+					<GUID>3FCD8859-0A92-41AB-9E55-28EADEE72A3E</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Generate Configuration Files</eng>
+						<loc>Generate Configuration Files</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard - 1553\Ballard - 1553 Configuration.llb\Ballard - 1553 - Generate Configuration Files.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>CB66F472-A923-4165-AEBC-C7B766070099</GUID>
 					<Type>Action</Type>
 					<Name>
@@ -132,6 +144,31 @@
 				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
+				<Button>
+					<ID>NIVS_1553_GenDBs</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NewProj.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>3FCD8859-0A92-41AB-9E55-28EADEE72A3E</ReferencedGUID>
+					<ButtonText>
+						<eng>Generate Configuration Files</eng>
+						<loc>Generate Configuration Files</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Generate Configuration Files</eng>
+						<loc>Generate Configuration Files</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Generate Configuration Files</eng>
+						<loc>Generate Configuration Files</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
 				<Button>
 					<ID>NIVS_1553_LoadDB</ID>
 					<Glyph>
