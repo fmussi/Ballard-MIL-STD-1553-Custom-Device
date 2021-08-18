@@ -24,6 +24,7 @@
 		<Item Name="_test" Type="Folder">
 			<Item Name="Param" Type="Folder">
 				<Item Name="test_signal2word.vi" Type="VI" URL="../../_Tests/test_signal2word.vi"/>
+				<Item Name="test_signal2word2signal.vi" Type="VI" URL="../../_Tests/test_signal2word2signal.vi"/>
 				<Item Name="test_word2signal.vi" Type="VI" URL="../../_Tests/test_word2signal.vi"/>
 			</Item>
 			<Item Name="test_LoadCompiledSettings.vi" Type="VI" URL="../../_Tests/test_LoadCompiledSettings.vi"/>
@@ -869,7 +870,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D650FCA-E102-45E1-9A17-04AAA4E3C3B9}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Ballard - 1553 Engine.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Ballard - 1553 Engine.llb</Property>
