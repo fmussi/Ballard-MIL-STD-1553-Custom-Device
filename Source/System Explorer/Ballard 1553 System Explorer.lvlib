@@ -67,6 +67,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Parse Parameters File" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Load Param Database (Core).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param Database (Core).vi"/>
 				<Item Name="Convert HW file path to paramID path.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Convert HW file path to paramID path.vi"/>
 				<Item Name="Create Message Channels.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Message Channels.vi"/>
 				<Item Name="Create Channels from Parameter List (BC).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Channels from Parameter List (BC).vi"/>
@@ -80,6 +81,7 @@
 				<Item Name="Find Param Id match.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Find Param Id match.vi"/>
 			</Item>
 			<Item Name="Parse XML Ballard" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="1.2" Type="Folder">
 					<Item Name="BTI.xsd" Type="Document" URL="../SubVIs/Parse XML Ballard/1.2/BTI.xsd"/>
 					<Item Name="BTIXML_SerDes.dll" Type="Document" URL="../SubVIs/Parse XML Ballard/1.2/BTIXML_SerDes.dll"/>
@@ -99,6 +101,7 @@
 				<Item Name="Ballard_RT rtMode.ctl" Type="VI" URL="../SubVIs/Parse XML Ballard/Ballard_RT rtMode.ctl"/>
 				<Item Name="Ballard_RT subAddress.ctl" Type="VI" URL="../SubVIs/Parse XML Ballard/Ballard_RT subAddress.ctl"/>
 				<Item Name="Ballard_RT.ctl" Type="VI" URL="../SubVIs/Parse XML Ballard/Ballard_RT.ctl"/>
+				<Item Name="Load HW Database (Core).vi" Type="VI" URL="../SubVIs/Parse XML Ballard/Load HW Database (Core).vi"/>
 				<Item Name="Check XML File against XSD Schema.vi" Type="VI" URL="../SubVIs/Parse XML Ballard/Check XML File against XSD Schema.vi"/>
 				<Item Name="Read XML HW Configuration File.vi" Type="VI" URL="../SubVIs/Parse XML Ballard/Read XML HW Configuration File.vi"/>
 				<Item Name="Read XML HW Configuration File_Parse Channels.vi" Type="VI" URL="../SubVIs/Parse XML Ballard/Read XML HW Configuration File_Parse Channels.vi"/>
@@ -139,6 +142,4 @@
 			<Item Name="Update HW Configuration File Dependency.vi" Type="VI" URL="../SubVIs/Update HW Configuration File Dependency.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Load HW Database (Core).vi" Type="VI" URL="../SubVIs/Parse XML Ballard/Load HW Database (Core).vi"/>
-	<Item Name="Load Param Database (Core).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param Database (Core).vi"/>
 </Library>
