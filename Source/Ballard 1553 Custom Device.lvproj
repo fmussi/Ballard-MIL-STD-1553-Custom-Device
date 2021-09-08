@@ -50,7 +50,7 @@
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Configuration" Type="Folder">
-				<Item Name="CLI_wrapper.vi" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/builds/ConfigurationManager/test CLI app/CLI_wrapper.vi"/>
+				<Item Name="CLI_wrapper.vi" Type="VI" URL="../System Explorer/SubVIs/CLI_wrapper.vi"/>
 			</Item>
 			<Item Name="Debug" Type="Folder">
 				<Item Name="LogToSyslog.vi" Type="VI" URL="../Shared/Debug/LogToSyslog.vi"/>
@@ -292,7 +292,7 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="result_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/UI/_typedefs/result_type.ctl"/>
+			<Item Name="result_type.ctl" Type="VI" URL="../Shared/Controls and Global/result_type.ctl"/>
 			<Item Name="Signal Type.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/Shared/Signal Type.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -393,7 +393,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Ballard - 1553/Ballard - 1553 Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{413FE3DD-0A84-45BC-AE2D-CB5AA14E9B26}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7ABDB048-BD65-4DEC-B7DE-8382C35B1B64}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Ballard - 1553.xml</Property>
@@ -616,6 +616,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
 			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
+			<Item Name="dt_encodeDecode.lvlib" Type="Library" URL="../Shared/EncodeDecode/datatypes/dt_encodeDecode.lvlib"/>
 			<Item Name="Encode (Multi-Message).vi" Type="VI" URL="../Shared/EncodeDecode/Encode (Multi-Message).vi"/>
 			<Item Name="Encode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Encode (Single Param).vi"/>
 			<Item Name="Encode.vi" Type="VI" URL="../Shared/EncodeDecode/Encode.vi"/>
