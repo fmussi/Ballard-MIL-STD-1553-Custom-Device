@@ -68,6 +68,7 @@
 			<Item Name="Parse Parameters File" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="param_sysdef_type.ctl" Type="VI" URL="../SubVIs/Parse Parameters File/param_sysdef_type.ctl"/>
+				<Item Name="param_map_sysdef_type.ctl" Type="VI" URL="../SubVIs/Parse Parameters File/param_map_sysdef_type.ctl"/>
 				<Item Name="Load Param Database (Core).vi" Type="VI" URL="../SubVIs/Parse Parameters File/Load Param Database (Core).vi"/>
 				<Item Name="Convert HW file path to paramID path.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Convert HW file path to paramID path.vi"/>
 				<Item Name="Create Message Channels.vi" Type="VI" URL="../SubVIs/Parse Parameters File/Create Message Channels.vi"/>
