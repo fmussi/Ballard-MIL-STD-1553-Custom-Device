@@ -2,7 +2,7 @@
 LinuxRt_x64 = "192.168.0.18"
 
 [My Computer]
-My Computer = "10.96.1.19"
+My Computer = "192.168.137.120"
 
 [Pharlap]
 Pharlap = "10.1.128.37"
