@@ -27,7 +27,6 @@
 				<Item Name="test_signal2word2signal.vi" Type="VI" URL="../../_Tests/test_signal2word2signal.vi"/>
 				<Item Name="test_word2signal.vi" Type="VI" URL="../../_Tests/test_word2signal.vi"/>
 			</Item>
-			<Item Name="BCD_performance test.vi" Type="VI" URL="../../_Tests/BCD_performance test.vi"/>
 			<Item Name="sandbox.vi" Type="VI" URL="../Shared/EncodeDecode/datatypes/sandbox.vi"/>
 			<Item Name="test_LoadCompiledSettings.vi" Type="VI" URL="../../_Tests/test_LoadCompiledSettings.vi"/>
 			<Item Name="testDummy.vi" Type="VI" URL="../../_Tests/testDummy.vi"/>
@@ -116,7 +115,6 @@
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -136,7 +134,6 @@
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Excel file read.vi" Type="VI" URL="/&lt;vilib&gt;/AIRBUS DS/Excel spreadsheet reader/Excel file read.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
@@ -152,7 +149,6 @@
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
@@ -164,18 +160,14 @@
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
-				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Number To Enum.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Number To Enum.vim"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
-				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -192,103 +184,13 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Ballard MIL-1553 Engine.lvlib" Type="Library" URL="../RT Driver/Ballard MIL-1553 Engine.lvlib"/>
-			<Item Name="BCI-1553 API.lvlibp" Type="LVLibp" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp">
-				<Item Name="Dependencies" Type="Folder">
-					<Item Name="FPGA Interface.lvlib" Type="Library" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Dependencies/FPGA Interface.lvlib"/>
-					<Item Name="Registry.lvlib" Type="Library" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Dependencies/Registry.lvlib"/>
-					<Item Name="Virtual Memory.lvlib" Type="Library" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Dependencies/Virtual Memory.lvlib"/>
-				</Item>
-				<Item Name="Filters" Type="Folder">
-					<Item Name="Filter" Type="Folder">
-						<Item Name="Filter.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Filters/Filter/Filter.lvclass"/>
-					</Item>
-					<Item Name="TypeDefs" Type="Folder">
-						<Item Name="Filter Configuration.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Filters/TypeDefs/Filter Configuration.ctl"/>
-					</Item>
-				</Item>
-				<Item Name="Frames &amp; Messages" Type="Folder">
-					<Item Name="Frames" Type="Folder">
-						<Item Name="Major Frame.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Major Frame/Major Frame.lvclass"/>
-						<Item Name="Minor Frame.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Minor Frame/Minor Frame.lvclass"/>
-					</Item>
-					<Item Name="Messages" Type="Folder">
-						<Item Name="Async Message.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Async Message/Async Message.lvclass"/>
-						<Item Name="Async RT-RT Message.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Async RT-RT Message/Async RT-RT Message.lvclass"/>
-						<Item Name="Message.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Message/Message.lvclass"/>
-						<Item Name="RT-RT Message.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/RT-RT Message/RT-RT Message.lvclass"/>
-					</Item>
-					<Item Name="TypeDefs" Type="Folder">
-						<Item Name="Commands" Type="Folder">
-							<Item Name="Command Config.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Command Config.ctl"/>
-							<Item Name="Command SubAddress.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Command SubAddress.ctl"/>
-							<Item Name="Command Terminal Address.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Command Terminal Address.ctl"/>
-							<Item Name="Command Type.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Command Type.ctl"/>
-							<Item Name="Command Word Count.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Command Word Count.ctl"/>
-						</Item>
-						<Item Name="Instruction List" Type="Folder">
-							<Item Name="BC Condition Codes.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/BC Condition Codes.ctl"/>
-							<Item Name="BC Op Codes - Verbose.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/BC Op Codes - Verbose.ctl"/>
-							<Item Name="BC Op Codes.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/BC Op Codes.ctl"/>
-						</Item>
-						<Item Name="Messages" Type="Folder">
-							<Item Name="Async Message Config.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Async Message Config.ctl"/>
-							<Item Name="Async Message Pointers.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Async Message Pointers.ctl"/>
-							<Item Name="Async Payload.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Async Payload.ctl"/>
-							<Item Name="Async RT-RT Message Config.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Async RT-RT Message Config.ctl"/>
-							<Item Name="Message Config.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Message Config.ctl"/>
-							<Item Name="Message Control.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Message Control.ctl"/>
-							<Item Name="Message Pointers.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Message Pointers.ctl"/>
-							<Item Name="RT-RT Message Config.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/RT-RT Message Config.ctl"/>
-						</Item>
-						<Item Name="Minor Frames" Type="Folder">
-							<Item Name="Minor Frame Pointers.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Minor Frame Pointers.ctl"/>
-						</Item>
-						<Item Name="Scaling" Type="Folder">
-							<Item Name="Parameter Table Data.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Parameter Table Data.ctl"/>
-							<Item Name="Scaling Information.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/TypeDefs/Scaling Information.ctl"/>
-						</Item>
-					</Item>
-					<Item Name="Utility" Type="Folder">
-						<Item Name="Scaling" Type="Folder">
-							<Item Name="Scale Data.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Utility/Scale Data.vi"/>
-							<Item Name="Unscale Data.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Utility/Unscale Data.vi"/>
-						</Item>
-						<Item Name="Create Command.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Utility/Create Command.vi"/>
-						<Item Name="Find Next Control Word Address.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Frames &amp; Messages/Utility/Find Next Control Word Address.vi"/>
-					</Item>
-				</Item>
-				<Item Name="SubComponents" Type="Folder">
-					<Item Name="Abstract" Type="Folder">
-						<Item Name="1553 SubComponent.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/1553 SubComponent/1553 SubComponent.lvclass"/>
-					</Item>
-					<Item Name="Bus Controller.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Bus Controller/Bus Controller.lvclass"/>
-					<Item Name="Bus Monitor.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Bus Monitor/Bus Monitor.lvclass"/>
-					<Item Name="Remote Terminal.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/Remote Terminal/Remote Terminal.lvclass"/>
-				</Item>
-				<Item Name="1553 Component.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/1553 Component/1553 Component.lvclass"/>
-				<Item Name="1553 Session.lvclass" Type="LVClass" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Bloomy/BCI-1553 Driver/RealTime/RT Driver/1553 Session/1553 Session.lvclass"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-				<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-				<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
-				<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-				<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-				<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/BCI-1553 API.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			</Item>
-			<Item Name="BCI-1553B Engine.lvlib" Type="Library" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/Engine/BCI-1553B Engine.lvlib"/>
-			<Item Name="BCI-1553B Shared.lvlib" Type="Library" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/Shared/BCI-1553B Shared.lvlib"/>
-			<Item Name="BCI-1553B System Explorer.lvlib" Type="Library" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/System Explorer/BCI-1553B System Explorer.lvlib"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Configuration_Helper.lvlib" Type="Library" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/Configuration_Helper.lvlib"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="Configuration_Helper.lvlib" Type="Library" URL="../Shared/Configuration/Configuration_Helper.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -296,17 +198,13 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_encoding_type.ctl"/>
+			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_encoding_type.ctl"/>
 			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_signalType_type.ctl"/>
+			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_signalType_type.ctl"/>
 			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_type.ctl"/>
+			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_type.ctl"/>
 			<Item Name="result_type.ctl" Type="VI" URL="../Shared/Controls and Global/result_type.ctl"/>
-			<Item Name="Signal Type.ctl" Type="VI" URL="../../../../_Projects/1553 fabio/BCI-1553B/Source/Shared/Signal Type.ctl"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -393,7 +291,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E0FFDDA0-4AC9-4103-A74E-E84070D84016}</Property>
-				<Property Name="Bld_version.build" Type="Int">174</Property>
+				<Property Name="Bld_version.build" Type="Int">175</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Ballard - 1553</Property>
@@ -403,7 +301,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Ballard - 1553/Ballard - 1553 Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AEAC9369-8C3B-4FB1-AACA-7BDF44265323}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6FE3A931-199A-40EB-9333-2910CAED7E3A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Ballard - 1553.xml</Property>
@@ -593,9 +491,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
-				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
-				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -617,7 +512,6 @@ AddOutputFilter chunkFilter
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
@@ -632,8 +526,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/array/Helpers/Search Unsorted 1D Array Core.vim"/>
-				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -656,13 +548,13 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CLI_wrapper.vi" Type="VI" URL="../System Explorer/SubVIs/CLI_wrapper.vi"/>
-			<Item Name="Configuration_Helper.lvlib" Type="Library" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/Configuration_Helper.lvlib"/>
 			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
 			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
 			<Item Name="dt_encodeDecode.lvlib" Type="Library" URL="../Shared/EncodeDecode/datatypes/dt_encodeDecode.lvlib"/>
 			<Item Name="Encode (Multi-Message).vi" Type="VI" URL="../Shared/EncodeDecode/Encode (Multi-Message).vi"/>
 			<Item Name="Encode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Encode (Single Param).vi"/>
 			<Item Name="Encode.vi" Type="VI" URL="../Shared/EncodeDecode/Encode.vi"/>
+			<Item Name="json_param_type.ctl" Type="VI" URL="../Shared/Configuration/_typedefs/json_param_type.ctl"/>
 			<Item Name="LogToSyslog.vi" Type="VI" URL="../Shared/Debug/LogToSyslog.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -671,9 +563,12 @@ AddOutputFilter chunkFilter
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_encoding_type.ctl"/>
+			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_encoding_type.ctl"/>
+			<Item Name="param_encoding_type.ctl" Type="VI" URL="../Shared/Configuration/_typedefs/param_encoding_type.ctl"/>
 			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_signalType_type.ctl"/>
+			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_signalType_type.ctl"/>
 			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_type.ctl"/>
+			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_type.ctl"/>
 			<Item Name="parameter_config_encoding_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_encoding_type.ctl"/>
 			<Item Name="parameter_config_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type.ctl"/>
 			<Item Name="parameter_config_type_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type_type.ctl"/>
@@ -876,7 +771,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Ballard 1553 Shared.lvlib" Type="Library" URL="../Shared/Ballard 1553 Shared.lvlib"/>
 		<Item Name="Ballard MIL-1553 Engine.lvlib" Type="Library" URL="../RT Driver/Ballard MIL-1553 Engine.lvlib"/>
-		<Item Name="Configuration_Helper.lvlib" Type="Library" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/Configuration_Helper.lvlib"/>
+		<Item Name="Configuration_Helper.lvlib" Type="Library" URL="../Shared/Configuration/Configuration_Helper.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
@@ -965,8 +860,8 @@ AddOutputFilter chunkFilter
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Data/NIVeristand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
-				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -1030,7 +925,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D650FCA-E102-45E1-9A17-04AAA4E3C3B9}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Ballard - 1553 Engine.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Ballard - 1553 Engine.llb</Property>
