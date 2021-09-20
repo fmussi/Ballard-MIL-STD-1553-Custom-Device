@@ -199,11 +199,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_encoding_type.ctl"/>
-			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_encoding_type.ctl"/>
 			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_signalType_type.ctl"/>
-			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_signalType_type.ctl"/>
 			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_type.ctl"/>
-			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_type.ctl"/>
 			<Item Name="result_type.ctl" Type="VI" URL="../Shared/Controls and Global/result_type.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -491,6 +488,9 @@ AddOutputFilter chunkFilter
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -512,6 +512,7 @@ AddOutputFilter chunkFilter
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
@@ -526,6 +527,8 @@ AddOutputFilter chunkFilter
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -548,13 +551,13 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CLI_wrapper.vi" Type="VI" URL="../System Explorer/SubVIs/CLI_wrapper.vi"/>
+			<Item Name="Configuration_Helper.lvlib" Type="Library" URL="../Shared/Configuration/Configuration_Helper.lvlib"/>
 			<Item Name="Decode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Decode (Single Param).vi"/>
 			<Item Name="Decode.vi" Type="VI" URL="../Shared/EncodeDecode/Decode.vi"/>
 			<Item Name="dt_encodeDecode.lvlib" Type="Library" URL="../Shared/EncodeDecode/datatypes/dt_encodeDecode.lvlib"/>
 			<Item Name="Encode (Multi-Message).vi" Type="VI" URL="../Shared/EncodeDecode/Encode (Multi-Message).vi"/>
 			<Item Name="Encode (Single Param).vi" Type="VI" URL="../Shared/EncodeDecode/Encode (Single Param).vi"/>
 			<Item Name="Encode.vi" Type="VI" URL="../Shared/EncodeDecode/Encode.vi"/>
-			<Item Name="json_param_type.ctl" Type="VI" URL="../Shared/Configuration/_typedefs/json_param_type.ctl"/>
 			<Item Name="LogToSyslog.vi" Type="VI" URL="../Shared/Debug/LogToSyslog.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -563,12 +566,9 @@ AddOutputFilter chunkFilter
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_encoding_type.ctl"/>
-			<Item Name="param_encoding_type.ctl" Type="VI" URL="../Shared/Configuration/_typedefs/param_encoding_type.ctl"/>
+			<Item Name="param_encoding_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_encoding_type.ctl"/>
 			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_signalType_type.ctl"/>
-			<Item Name="param_signalType_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_signalType_type.ctl"/>
 			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Ballard_1553/controls/param_type.ctl"/>
-			<Item Name="param_type.ctl" Type="VI" URL="../../../../Azdo/emea-ni-vscd_Configurator/source/ConfiguratorConsumer/Helpers/Configuration/_typedefs/param_type.ctl"/>
 			<Item Name="parameter_config_encoding_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_encoding_type.ctl"/>
 			<Item Name="parameter_config_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type.ctl"/>
 			<Item Name="parameter_config_type_type.ctl" Type="VI" URL="../Shared/EncodeDecode/_typedefs/parameter_config_type_type.ctl"/>
